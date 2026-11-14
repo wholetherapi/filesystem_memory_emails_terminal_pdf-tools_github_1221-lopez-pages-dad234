@@ -4,9 +4,9 @@ description: "Independent data science, survey methodology and research consulti
 author: "Amanda Lopez"
 
 # Publishing
-url: ""
-baseurl: ""
-repository: ""
+url: "https://wholetherapi.github.io"
+baseurl: "/filesystem_memory_emails_terminal_pdf-tools_github_1221-lopez-pages-dad234"
+repository: "wholetherapi/filesystem_memory_emails_terminal_pdf-tools_github_1221-lopez-pages-dad234"
 
 # Build settings
 markdown: kramdown
