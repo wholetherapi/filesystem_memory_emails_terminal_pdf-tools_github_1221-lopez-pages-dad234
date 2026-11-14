@@ -1,0 +1,12 @@
+# Site identity
+title: "Amanda Lopez — Data & Research Studio"
+description: "Independent data science, survey methodology and research consulting."
+author: "Amanda Lopez"
+
+# Publishing
+url: ""
+baseurl: ""
+repository: ""
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <a href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
+    <nav>
+      <a href="{{ site.url }}{{ site.baseurl }}/about/ProfileSummary.html">About</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/research/Publications.html">Research</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/teaching/Workshops.html">Teaching</a>
+      <a href="{{ site.url }}{{ site.baseurl }}/contact/Contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>&copy; {{ site.author }}</footer>
+</body>
+</html>

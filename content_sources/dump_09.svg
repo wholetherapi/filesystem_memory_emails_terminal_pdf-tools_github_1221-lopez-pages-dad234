@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-labelledby="title desc">
+  <title id="title">Sampling frame diagram</title>
+  <desc id="desc">Diagram showing population, sampling frame and sample with coverage gap.</desc>
+  <style>
+    .box { fill: #ffffff; stroke: #333333; stroke-width: 2; }
+    .lbl { font-family: Georgia, serif; font-size: 16px; fill: #222222; }
+    .arrow { stroke: #333333; stroke-width: 2; fill: none; }
+  </style>
+  <rect class="box" x="30" y="120" width="150" height="90"/>
+  <text class="lbl" x="105" y="172" text-anchor="middle">Population</text>
+  <rect class="box" x="245" y="120" width="150" height="90"/>
+  <text class="lbl" x="320" y="172" text-anchor="middle">Sampling frame</text>
+  <rect class="box" x="460" y="120" width="150" height="90"/>
+  <text class="lbl" x="535" y="172" text-anchor="middle">Sample</text>
+  <path class="arrow" d="M180 165 L245 165"/>
+  <path class="arrow" d="M395 165 L460 165"/>
+  <text class="lbl" x="212" y="150" text-anchor="middle">coverage gap</text>
+  <text class="lbl" x="320" y="60" text-anchor="middle">Sampling design overview</text>
+</svg>
